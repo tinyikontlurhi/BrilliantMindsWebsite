@@ -2246,29 +2246,29 @@ fieldset:disabled a.btn {
       box-shadow: 0 0 0 0.2rem rgba(216, 217, 219, 0.5); }
 
 .btn-dark {
-  color: #fff;
-  background-color: #343a40;
-  border-color: #343a40; }
+  color: rgb(255, 248, 248);
+  background-color: #000000;
+  border-color: #000000; }
   .btn-dark:hover {
-    color: #fff;
-    background-color: #23272b;
+    color: rgb(255, 255, 255);
+    background-color: #000000;
     border-color: #1d2124; }
   .btn-dark:focus, .btn-dark.focus {
-    -webkit-box-shadow: 0 0 0 0.2rem rgba(82, 88, 93, 0.5);
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.5);
     box-shadow: 0 0 0 0.2rem rgba(82, 88, 93, 0.5); }
   .btn-dark.disabled, .btn-dark:disabled {
     color: #fff;
-    background-color: #343a40;
-    border-color: #343a40; }
+    background-color: #ffffff;
+    border-color: #000000; }
   .btn-dark:not(:disabled):not(.disabled):active, .btn-dark:not(:disabled):not(.disabled).active,
   .show > .btn-dark.dropdown-toggle {
-    color: #fff;
+    color: rgb(0, 0, 0);
     background-color: #1d2124;
-    border-color: #171a1d; }
+    border-color: #ffffff; }
     .btn-dark:not(:disabled):not(.disabled):active:focus, .btn-dark:not(:disabled):not(.disabled).active:focus,
     .show > .btn-dark.dropdown-toggle:focus {
       -webkit-box-shadow: 0 0 0 0.2rem rgba(82, 88, 93, 0.5);
-      box-shadow: 0 0 0 0.2rem rgba(82, 88, 93, 0.5); }
+      box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.5); }
 
 .btn-outline-primary {
   color: #007bff;
@@ -9410,15 +9410,9 @@ textarea.form-control {
     content: '';
     z-index: -1;
     opacity: .8;
-    background: black;
-    background: black;
-    background: -moz-linear-gradient(45deg, black 0%, #fd6100 100%);
-    background: -webkit-gradient(left bottom, right top, color-stop(0%, black), color-stop(100%, #fd6100));
-    background: -webkit-linear-gradient(45deg, black 0%, #fd6100 100%);
-    background: -o-linear-gradient(45deg, black 0%, #fd6100 100%);
-    background: -ms-linear-gradient(45deg, black 0%, #fd6100 100%);
-    background: linear-gradient(45deg, black 0%, #fd6100 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='black', endColorstr='#fd6100', GradientType=1 ); }
+    background: white;
+    background: white;
+     }
 
 .ftco-counter {
   overflow-x: hidden;
@@ -9444,12 +9438,12 @@ textarea.form-control {
   .ftco-counter .text strong.number {
     font-weight: 600;
     font-size: 40px;
-    color: #fff;
+    color: red;
     display: block; }
   .ftco-counter .text span {
     display: block;
     font-size: 16px;
-    color: rgba(255, 255, 255, 0.8); }
+    color: 255, 255, 0.8); }
   @media (max-width: 767.98px) {
     .ftco-counter .counter-wrap {
       margin-bottom: 20px; } }
